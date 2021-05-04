@@ -4,7 +4,11 @@ const Resume = () => {
 
     return (
         <div>
-            <h2>Resume will go here</h2>
+            <header>
+                <h2>Resume</h2>
+                <p>Lorem Ipsum</p>
+             </header>
+            
         </div>
     )
 }

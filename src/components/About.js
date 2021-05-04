@@ -5,7 +5,11 @@ const About = () => {
     return (
 
         <div>
-            <h2>Motivated and passion-driven professional</h2>
+            <header>
+                <h2>About</h2>
+                <p>Motivated and passion-driven professional</p>
+            </header>
+            
         </div>
     )
 }

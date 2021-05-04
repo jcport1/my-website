@@ -4,7 +4,11 @@ const Projects = () => {
 
     return (
         <div>
-            <h2> Projects will go here </h2>
+            <header>
+                <h2>Projects</h2>
+                <p> Lorem Ipsum </p>
+            </header>
+            
         </div> 
     )
 }

@@ -4,9 +4,12 @@ const Contact = () => {
 
     return (
         <div>
-            <h2>Email: jefferson.cuartas@gmail.com</h2>
-            <h2>LinkedIn: my LinkedIn </h2>
-            <h2>Twitter: my twitter</h2>
+            <header>
+                <h2>Contact</h2>
+                <p>Email: jefferson.cuartas@gmail.com</p>
+                <p>LinkedIn: my LinkedIn </p>
+                <p>Twitter: my twitter</p>
+            </header>
         </div>
     )
 }
