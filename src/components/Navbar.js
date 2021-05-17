@@ -1,7 +1,7 @@
 import React from 'react';
-import { Nav.Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-const Navbar = () => {
+export default function Navbar(){
 
     return(
 

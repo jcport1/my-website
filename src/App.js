@@ -1,4 +1,5 @@
 import './App.css';
+import Header from "./components/Header"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1>Jeff's Portfolio Site</h1>
-
+      <Header/>
       <About />
       <Projects />
       <Resume />
