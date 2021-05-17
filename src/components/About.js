@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <header>
                 <h2>About</h2>
-                <p>Motivated and passion-driven professional</p>
+                <p>Motivated and driven professional. Strong technologist who is passionate about creating great user experiences</p>
             </header>
             
         </div>
