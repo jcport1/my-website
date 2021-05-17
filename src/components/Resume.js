@@ -6,7 +6,7 @@ const Resume = () => {
         <div>
             <header>
                 <h2>Resume</h2>
-                <p>Lorem Ipsum</p>
+                <p>Add a PDF file</p>
              </header>
             
         </div>
