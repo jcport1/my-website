@@ -7,6 +7,8 @@ const Projects = () => {
             <header>
                 <h2>Projects</h2>
                 <p> Lorem Ipsum </p>
+                <p> Lorem Ipsum </p>
+                <p> Lorem Ipsum </p>
             </header>
             
         </div> 
