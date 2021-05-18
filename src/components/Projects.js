@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
 
     return (
-        <div>
+        <div id="projects">
             <header>
                 <h2>Projects</h2>
                 <p> Lorem Ipsum </p>

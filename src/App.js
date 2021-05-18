@@ -1,5 +1,6 @@
-import './App.css';
+import React from 'react'
 import Header from "./components/Header"
+import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
@@ -8,8 +9,9 @@ import Contact from "./components/Contact"
 function App() {
   return (
     <div className="App">
-      <h1>Jeff's Portfolio Site</h1>
       <Header/>
+      <Navbar />
+
       <About />
       <Projects />
       <Resume />

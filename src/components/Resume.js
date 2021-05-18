@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
 
     return (
-        <div>
+        <div id="resume">
             <header>
                 <h2>Resume</h2>
                 <p>Add a PDF file</p>
