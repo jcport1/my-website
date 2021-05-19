@@ -3,15 +3,17 @@ import React from 'react';
 const Projects = () => {
 
     return (
-        <div id="projects">
-            <header>
-                <h2>Projects</h2>
-                <p> Lorem Ipsum </p>
-                <p> Lorem Ipsum </p>
-                <p> Lorem Ipsum </p>
-            </header>
-            
-        </div> 
+        <div className="portfolio-wrapper">
+            <div className="container">
+                <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+                    <div className="image-box-wrapper row justify-content-center">
+                        <img className="portfolio-image" src= alt=""/>
+
+                    </div>
+              
+            </div>
+        
+        </div>
     )
 }
 
