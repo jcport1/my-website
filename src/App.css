@@ -16,6 +16,11 @@ body {
 }
 /*------------- Menu Links ------------  */
 
+.nav-icon {
+  width: calc(10px + 1vw);
+  margin: 0 1vw 0 1vw;
+}
+
 nav a.nav-link {
   /* font-weight: 500; */
   letter-spacing: 0.0375rem;
