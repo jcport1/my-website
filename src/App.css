@@ -8,6 +8,7 @@
   --primary-hover-red: #f33501;
   --primary-light-grey: #f4f4f4;
   --primary-black: #000000;
+  --primary-light-purple: rgb(204, 151, 242); 
 
 }
 body {
@@ -140,7 +141,23 @@ nav ul li {
 }
 
 .portfolio-image-box:hover .portfolio-icon {
-  opacity: 1;
+  opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+/*------------- Overflow Box ------------  */
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-light-purple);
 }
