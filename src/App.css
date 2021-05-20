@@ -102,6 +102,10 @@ nav ul li {
   padding: 3rem 0;
 }
 
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
+}
+
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-orange);
@@ -161,3 +165,27 @@ nav ul li {
 .hyper-link:hover {
   color: var(--primary-light-purple);
 }
+
+/*------------- MEDIA ------------  */
+
+@media(max-width: 768px) {
+
+  .portfolio-image-popupbox {
+
+    width: 100%;
+
+  }
+
+  @media(max-height: 570px) {
+
+    .popupbox-wrapper {
+      height: 100%;
+    }
+
+    .portfolio-image-popupbox {
+      width: 50%;
+    }
+  }
+
+}
+

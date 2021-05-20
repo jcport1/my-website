@@ -13,7 +13,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={pawpal} alt="PawPal Ruby Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/doggy-hangouts")}>https://github.com/jcport1/doggy-hangouts</a>
             </>
         )
@@ -44,7 +44,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={french} alt="French Flashcards JS Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/js-project-french-app-frontend")}>https://github.com/jcport1/js-project-french-app-frontend</a>
             </>
         )
@@ -76,7 +76,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={art} alt="Art Explorer React Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/react-frontend")}>https://github.com/jcport1/react-frontend</a>
             </>
         )
