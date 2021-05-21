@@ -47,6 +47,8 @@ nav ul li {
 
 }
 
+/*------------- Header ------------  */
+
 .header-wrapper {
   position: relative;
   background: url(background.jpg) no-repeat;
@@ -194,3 +196,8 @@ nav ul li {
 
 }
 
+/*------------- Contact ------------  */
+
+.contact-wrapper h1 {
+  color: var(--primary-orange);
+}
