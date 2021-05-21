@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import github from "../images/github.png"; 
@@ -27,16 +27,16 @@ export default function Navbar(){
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item active">
-            <a className="nav-link" aria-current="page" href="#">Home</a>
+            <Link smooth={true} to="about" className="nav-link" aria-current="page" href="#">Home</Link>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="#">Projects</a>
+            <Link smooth={true} to="projects" className="nav-link" href="#">Projects</Link>
             </li>
              <li className="nav-item">
             <a className="nav-link" href="#">Resume</a>
             </li>
              <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <Link smooth={true} to="contact" className="nav-link" href="#">Contact</Link>
             </li>
       </ul>
     </div>

@@ -6,7 +6,7 @@ import linkedin from "../images/linkedin.png";
 const Contact = () => {
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="container">
                 <div className="contact-wrapper">
                     <h1 className="text-uppercase text-center py-5">Let's Get In Touch</h1>
