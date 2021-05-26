@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import github from "../images/github.png"; 
 import linkedin from "../images/linkedin.png";
-import twitter from "../images/twitter.png"; 
+import twitter from "../images/twitter.png";
+import resume from "../jeff-resume.pdf"
 
 export default function Navbar(){
 
     return(
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div className="container-fluid">
         <a className="navbar-brand text-white logo" href="#">Jeff Cuartas</a>
         <div className="social-links d-inline-block">
@@ -27,16 +28,16 @@ export default function Navbar(){
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item active">
-            <Link smooth={true} to="about" className="nav-link" aria-current="page" href="#">Home</Link>
+            <Link smooth={true} to="about" offset={-110} className="nav-link" aria-current="page" href="#">About</Link>
             </li>
             <li className="nav-item">
-            <Link smooth={true} to="projects" className="nav-link" href="#">Projects</Link>
+            <Link smooth={true} to="projects" offset={-110} className="nav-link" href="#">Projects</Link>
             </li>
              <li className="nav-item">
-            <a className="nav-link" href="#">Resume</a>
+            <a href={resume} target="_blank" className="nav-link" rel="noreferrer">Resume</a>
             </li>
              <li className="nav-item">
-            <Link smooth={true} to="contact" className="nav-link" href="#">Contact</Link>
+            <Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
             </li>
       </ul>
     </div>

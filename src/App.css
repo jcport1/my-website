@@ -71,7 +71,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 
@@ -201,3 +201,5 @@ nav ul li {
 .contact-wrapper h1 {
   color: var(--primary-orange);
 }
+
+
