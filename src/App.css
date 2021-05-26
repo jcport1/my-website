@@ -202,4 +202,10 @@ nav ul li {
   color: var(--primary-orange);
 }
 
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 
+}
