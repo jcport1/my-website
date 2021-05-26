@@ -39,9 +39,9 @@ function App() {
             number: {
               density: {
                 enable: true,
-                value_area: 800,
+                value_area: 900,
               },
-              value: 80,
+              value: 70,
             },
             opacity: {
               value: 0.5,

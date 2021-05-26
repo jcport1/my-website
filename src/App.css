@@ -75,6 +75,13 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.typed-text {
+
+  font-size: 2rem;
+  color: var(--primary-orange); 
+
+}
+
 /*------------- About Me ------------  */
 
 .photo-wrap {
