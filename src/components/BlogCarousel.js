@@ -7,19 +7,23 @@ import post3 from "../images/blog-post-3.png";
 
 const BlogCarousel = () => {
     return (
-       <Carousel>
+       <Carousel
+       showArrows={true}
+       infiniteLoop={true}
+       showThumbs={false}
+       showStatus={false}
+       autoPlay={true}
+       interval={3000}>
        <>
        <img src={post1} alt="JavaScript Scope Chain"/>
        <div className="myCarousel">
        <h3>Understanding the JavaScript Scope Chain</h3>
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti debitis accusamus non at quia tenetur eius voluptatem hic nostrum facere.</p>
        </div>
        </>
        <>
        <img src={post2} alt="JavaScript Scope Chain"/>
        <div className="myCarousel">
        <h3>Making API Calls with RestClient</h3>
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti debitis accusamus non at quia tenetur eius voluptatem hic nostrum facere.</p>
        </div>
        </>
        
@@ -27,7 +31,6 @@ const BlogCarousel = () => {
        <img src={post3} alt="JavaScript Scope Chain"/>
        <div className="myCarousel">
        <h3>Best Browsers to Use for JavaScript</h3>
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti debitis accusamus non at quia tenetur eius voluptatem hic nostrum facere.</p>
        </div>
        </>
        
