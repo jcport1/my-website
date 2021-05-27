@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.daa6e0f4.chunk.css",
+    "main.js": "/my-website/static/js/main.89edd3bb.chunk.js",
+    "main.js.map": "/my-website/static/js/main.89edd3bb.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.5b8c1bb3.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.5b8c1bb3.js.map",
+    "static/css/2.adb406d7.chunk.css": "/my-website/static/css/2.adb406d7.chunk.css",
+    "static/js/2.1d408f55.chunk.js": "/my-website/static/js/2.1d408f55.chunk.js",
+    "static/js/2.1d408f55.chunk.js.map": "/my-website/static/js/2.1d408f55.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "static/css/2.adb406d7.chunk.css.map": "/my-website/static/css/2.adb406d7.chunk.css.map",
+    "static/css/main.daa6e0f4.chunk.css.map": "/my-website/static/css/main.daa6e0f4.chunk.css.map",
+    "static/js/2.1d408f55.chunk.js.LICENSE.txt": "/my-website/static/js/2.1d408f55.chunk.js.LICENSE.txt",
+    "static/media/art-explorer.b730d9af.png": "/my-website/static/media/art-explorer.b730d9af.png",
+    "static/media/App.css": "/my-website/static/media/background.f38fabf8.jpg",
+    "static/media/blog-post-1.79defddf.png": "/my-website/static/media/blog-post-1.79defddf.png",
+    "static/media/blog-post-2.f85dfd97.png": "/my-website/static/media/blog-post-2.f85dfd97.png",
+    "static/media/blog-post-3.31a05d5e.png": "/my-website/static/media/blog-post-3.31a05d5e.png",
+    "static/media/frenchified.7bc76bbc.png": "/my-website/static/media/frenchified.7bc76bbc.png",
+    "static/media/github.4a94dad1.png": "/my-website/static/media/github.4a94dad1.png",
+    "static/media/jeff-image.370759a5.jpg": "/my-website/static/media/jeff-image.370759a5.jpg",
+    "static/media/jeff-resume.131679ef.pdf": "/my-website/static/media/jeff-resume.131679ef.pdf",
+    "static/media/mail.6e60dfea.png": "/my-website/static/media/mail.6e60dfea.png",
+    "static/media/pawpals.6780c6b4.png": "/my-website/static/media/pawpals.6780c6b4.png",
+    "static/media/twitter.8a88b19a.png": "/my-website/static/media/twitter.8a88b19a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b8c1bb3.js",
+    "static/css/2.adb406d7.chunk.css",
+    "static/js/2.1d408f55.chunk.js",
+    "static/css/main.daa6e0f4.chunk.css",
+    "static/js/main.89edd3bb.chunk.js"
+  ]
+}
