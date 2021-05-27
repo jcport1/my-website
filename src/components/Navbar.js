@@ -36,6 +36,9 @@ export default function Navbar(){
              <li className="nav-item">
             <a href={resume} target="_blank" className="nav-link" rel="noreferrer">Resume</a>
             </li>
+            <li className="nav-item">
+            <Link smooth={true} to="blog" offset={-110} className="nav-link" href="#">Blog</Link>
+            </li>
              <li className="nav-item">
             <Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
             </li>

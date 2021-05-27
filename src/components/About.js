@@ -1,6 +1,5 @@
 import React from 'react';
 import author from "../jeff-image.jpg"
-import resume from "../jeff-resume.pdf"
 
 const About = () => {
 
@@ -16,10 +15,9 @@ const About = () => {
                 
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About me</h1>
-                    <p>Full stack software engineer with experience in Ruby on Rails, JavaScript, and React. </p>
-                    <a href={resume} target="_blank" rel="noreferrer">
-                    <button className="bt btn-info">Here's my resume</button>
-                    </a>
+                    <p>Full stack software engineer with experience in Ruby on Rails, JavaScript, and React. I'm a driven problem-solver with an innate desire to always keep learning. </p>
+                    <p>In my spare time, I enjoy hiking, conversing with fellow franchophones, and listening to NPR while I try out a new recipe.</p>
+    
                 </div>
             </div>
             

@@ -13,7 +13,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={pawpal} alt="PawPal Ruby Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Event management application for dog owners to browse, create, and RSVP to local pet meet-ups.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/doggy-hangouts")}>https://github.com/jcport1/doggy-hangouts</a>
             </>
         )
@@ -44,7 +44,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={french} alt="French Flashcards JS Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Flaschcard application for French language learners designed to improve acquistition of verb conjugations.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/js-project-french-app-frontend")}>https://github.com/jcport1/js-project-french-app-frontend</a>
             </>
         )
@@ -76,7 +76,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={art} alt="Art Explorer React Project..."/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Image search application that allows user to explore the paintings collection of the Harvard art museum.</p>
                 <b>Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/jcport1/react-frontend")}>https://github.com/jcport1/react-frontend</a>
             </>
         )
