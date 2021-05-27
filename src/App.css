@@ -9,7 +9,8 @@
   --primary-light-grey: #f4f4f4;
   --primary-black: #000000;
   --primary-transparent-black: rgba(0, 0, 0, 0.577);
-  --primary-light-purple: rgb(204, 151, 242); 
+  --primary-light-purple: rgb(204, 151, 242);
+  --primary-teal: #0077b5; 
 
 }
 body {
@@ -206,6 +207,10 @@ nav ul li {
 
 /*------------- Contact ------------  */
 
+.contact {
+  height: 50vh; 
+
+}
 .contact-wrapper h1 {
   color: var(--primary-orange);
 }
@@ -268,7 +273,7 @@ nav ul li {
 
 
 .carousel .slide img {
-  width: 20rem !important;
+  width: 40rem !important;
   /* border-radius: 50%; */
   padding-bottom: 1rem;
 }
@@ -286,3 +291,20 @@ nav ul li {
   
 }
 
+.hyper-link-blog {
+  cursor: pointer;
+  font-size: 1.5rem !important;
+  color: var(--primary-teal);
+}
+
+.hyper-link-blog:hover {
+  color: var(--primary-light-purple);
+}
+
+/*------------- Footer ------------  */
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark);
+  padding: 3rem; 
+}

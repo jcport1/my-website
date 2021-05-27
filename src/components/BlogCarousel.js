@@ -17,20 +17,20 @@ const BlogCarousel = () => {
        <>
        <img src={post1} alt="JavaScript Scope Chain"/>
        <div className="myCarousel">
-       <h3>Understanding the JavaScript Scope Chain</h3>
+       <a className="hyper-link-blog" onClick={() => window.open("https://jefferson-cuartas.medium.com/understanding-javascript-variables-the-scope-chain-26d4a5793214")}><b>Understanding JavaScript Variables & The Scope Chain</b></a>
        </div>
        </>
        <>
-       <img src={post2} alt="JavaScript Scope Chain"/>
+       <img src={post2} alt="RestClient"/>
        <div className="myCarousel">
-       <h3>Making API Calls with RestClient</h3>
+       <a className="hyper-link-blog" onClick={() => window.open("https://jefferson-cuartas.medium.com/rails-backend-how-to-fetch-data-from-a-third-party-api-via-restclient-c6968e70d6f5")}><b>Rails Backend: How to Fetch Data From a Thid-Party API via RestClient</b></a>
        </div>
        </>
        
        <>
-       <img src={post3} alt="JavaScript Scope Chain"/>
+       <img src={post3} alt="Browsers fro Developers"/>
        <div className="myCarousel">
-       <h3>Best Browsers to Use for JavaScript</h3>
+       <a className="hyper-link-blog" onClick={() => window.open("https://jefferson-cuartas.medium.com/best-browsers-to-use-for-javascript-9cadbfc5dac")}><b>Best Browsers to Use For JavaScript Web Development</b></a>
        </div>
        </>
        
